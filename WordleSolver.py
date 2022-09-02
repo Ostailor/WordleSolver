@@ -7,7 +7,7 @@ def main():
     color = ""
     while i > 0 and color != "ggggg":
         chosen = input("What word did you choose? ")
-        color = input("What were the colors... g for Green, y for Yellow, n for No Color? ")
+        color = input("What were the colors... g for Green, y for Yellow, b for No Color? ")
         print(second_word(chosen, color, sequence()))
         i -= 1
 
